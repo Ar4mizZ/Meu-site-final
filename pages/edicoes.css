@@ -1,0 +1,56 @@
+/* Começa a header */
+nav ul{
+    justify-content: space-around;
+    box-sizing: border-box;
+    flex-direction: row;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(110, 41, 175);
+    font-family: 'Bungee', cursive;
+    font-size: 25px;
+}
+nav ul .lista{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+ul{
+    background-color: rgb(14, 8, 20);
+    margin: 0px 0px 0px 0px;
+    background-size: 100%;
+}
+li:hover{
+    cursor: pointer;
+    background-color: rgb(44, 26, 68);
+}
+/*Fim da header*/
+body{
+    margin: 0px 0px 0px 0px;
+    background-color: rgb(14, 8, 20) ;
+}
+.galeria{
+    display: flex;
+    text-align: center;
+}
+.coluna{
+    margin-top: 10px;
+}
+.texto{
+    text-align: center;
+    color:  rgb(110, 41, 175);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(128, 26, 224);
+}
+img{
+    width: 100%;
+    height: auto;
+}
